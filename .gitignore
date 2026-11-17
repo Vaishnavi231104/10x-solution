@@ -1,0 +1,22 @@
+# secrets: never commit these
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# databases and generated files
+*.db
+*.sqlite3
+*.pdf
+
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# tooling
+.claude/
+.vscode/
+.idea/
